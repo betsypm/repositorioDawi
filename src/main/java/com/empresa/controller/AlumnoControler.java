@@ -39,6 +39,6 @@ public class AlumnoControler {
 			return ResponseEntity.ok(objSalida);
 		}else {
 			return ResponseEntity.badRequest().build();
-		}
+		} 
 	}
 }
