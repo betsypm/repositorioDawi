@@ -20,7 +20,7 @@ import lombok.extern.apachecommons.CommonsLog;
 @CommonsLog
 @RequestMapping("/rest/alumno")
 public class AlumnoControler {
-
+ 
 	@Autowired
 	private AlumnoService service;
 	
